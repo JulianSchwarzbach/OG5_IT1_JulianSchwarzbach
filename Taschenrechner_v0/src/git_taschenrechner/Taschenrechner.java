@@ -12,10 +12,12 @@ public class Taschenrechner {
 	}
 	
 	public double mul(double zahl1, double zahl2){
+		return zahl1 * zahl2;
 		// has to be implemented
 	}
 
 	public double div(double zahl1, double zahl2){
+		return zahl1 / zahl2;
 		// has to be implemented
 	}
 	
