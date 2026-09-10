@@ -20,7 +20,26 @@ public class MyActionListener implements ActionListener {
 			 f.myTank.setFuellstand(fuellstand);
 
 			 f.lblFuellstand.setText(""+fuellstand);
+			 f.lblProzents.setText("oder: " + fuellstand /200 *100 +" prozent");
 		}
+		if (obj == f.btnVerbrauchen) {
+			 double fuellstand = f.myTank.getFuellstand();
+			 fuellstand = fuellstand - 2;
+			 f.myTank.setFuellstand(fuellstand);
+
+			 f.lblFuellstand.setText(""+fuellstand);
+			 f.lblProzents.setText("oder: " + fuellstand /200 *100 +" prozent");
+		}
+		if (obj == f.btnZuruecksetzen) {
+			 double fuellstand = f.myTank.getFuellstand();
+			 fuellstand = 0 ;
+			 f.myTank.setFuellstand(fuellstand);
+
+			 f.lblFuellstand.setText(""+fuellstand);
+			 f.lblProzents.setText("oder: " + fuellstand /200 *100 +" prozent");
+		}
+
+
 
 	}
 }
