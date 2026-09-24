@@ -9,7 +9,7 @@ package de.oszimt.starsim2099;
 public class Pilot {
       
       double posX;
-      double poxY;
+      double posY;
       String name;
       String grad;
 	
@@ -23,11 +23,11 @@ public class Pilot {
 	  public void setPosX(double posX) {
 		  this.posX = posX;
 	  }
-	  public double getPoxY() {
-		  return poxY;
+	  public double getPosY() {
+		  return posY;
 	  }
-	  public void setPoxY(double poxY) {
-		  this.poxY = poxY;
+	  public void setPosY(double poxY) {
+		  this.posY = poxY;
 	  }
 	  public String getName() {
 		  return name;

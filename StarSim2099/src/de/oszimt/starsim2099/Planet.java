@@ -6,7 +6,7 @@ package de.oszimt.starsim2099;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Planet {
+public class Planet extends Himmelskoerper {
 	double posX;
 	double posY;
 	int anzahlHafen;

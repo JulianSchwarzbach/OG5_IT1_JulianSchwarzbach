@@ -38,11 +38,11 @@ public class Raumschiff {
 		this.posY = posY;
 	}
 
-	public int getMaxKapazitaet() {
+	public int getMaxLadekapazitaet() {
 		return maxKapazitaet;
 	}
 
-	public void setMaxKapazitaet(int maxKapazitaet) {
+	public void setMaxLadekapazitaet(int maxKapazitaet) {
 		this.maxKapazitaet = maxKapazitaet;
 	}
 
